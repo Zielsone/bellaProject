@@ -12,7 +12,7 @@
 
 
 body{
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Lobster', cursive;
     position: relative;
     transition: opacity .5s;
 }
@@ -148,9 +148,11 @@ a.navbar-brand{ //logo in menu
             font-family: 'Montserrat', sans-serif;
         }
     }
-    
+
+    .catTxt{
     .underline{
-        width: 15%;
+        width: 12%;
+    }
     }
 
     .aboutUs-card:hover{
@@ -217,7 +219,7 @@ a.navbar-brand{ //logo in menu
 
 .prices{
     position: relative;
-    background-image: url('../pic/AllWorkers.jpg');
+    background-image: url('../pic/AllWorkers640.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -253,14 +255,14 @@ a.navbar-brand{ //logo in menu
 }
 
 .team{
-    background-image: url('../pic/v748-toon-111.jpg');
+    background-image: url('../pic/teamBg640.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     .catTxt{
         .underline{
-            width: 15%;
+            width: 12%;
         }
     }
     .card{
@@ -287,7 +289,7 @@ a.navbar-brand{ //logo in menu
 
 .achievements{
     .underline{
-        width: 15%;
+        width: 20%;
     }
     .ach{
         margin-bottom: 20px;
@@ -317,11 +319,10 @@ a.navbar-brand{ //logo in menu
 
 .contact{
     position: relative;
-    background-image: url('../pic/contact1920.jpg');
+    background-image: url('../pic/contact640.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 0% 50%;
+    background-position: center;
     
     .shadow-bg{
         position: absolute;
@@ -329,7 +330,7 @@ a.navbar-brand{ //logo in menu
         height: 100%;
         top: 0;
         background-color: rgba(0,0,0, .8);
-        z-index: 0;
+       
         
     }
 
@@ -338,7 +339,7 @@ a.navbar-brand{ //logo in menu
         z-index: 99;
     }
     .underline{
-        width: 15%;
+        width: 17%;
     }
     .catTxt{
         color: $white;
@@ -371,6 +372,16 @@ a.navbar-brand{ //logo in menu
 
 }
 
+.footer{
+    p{
+        a{
+            color: $gold;
+            text-decoration: none;
+        }
+
+    }
+}
+
 
 @media(max-width: 992px){
     .navbar{
@@ -382,16 +393,50 @@ a.navbar-brand{ //logo in menu
 
    
     .aboutUs{
+        .catTxt{
         .underline{
-            width: 35%;
+            width: 30%;
         }
+    }
     }
     .aboutUs-hero{
         .catTxt{
         .underline{
-            width: 98%;
+            width: 80%;
         }
     }
+    }
+
+    .portfolio{
+        .underline{
+            width: 40%;
+        }
+    }
+
+    .prices{
+        .underline{
+            width: 25%;
+        }
+    }
+
+    .team{
+        .catTxt{
+            .underline{
+                width: 30%;
+                }
+    }
+    }
+
+    .achievements{
+        .underline{
+            width: 45%;
+        }
+    }
+
+    .contact{
+        .underline{
+            width: 40%;
+        }
     }
 }
 
@@ -413,40 +458,21 @@ a.navbar-brand{ //logo in menu
         width: 35%;
     }
 }
+.prices{
+    background-image: url('../pic/AllWorkers.jpg');
 }
 
+.contact{
+    background-image: url('../pic/contact1920.jpg');
+}
 
-@media(max-width: 768px){
-    a.navbar-brand{
-        margin-left: 15px;
-    }
+.team{
+    background-image: url('../pic/teamBg1920.jpg'); 
 
-    .aboutUs-hero{
-        .catTxt{
-        .underline{
-            width: 45%;
+    .card{
+        .card-body{
+        height: 420px;
         }
     }
 }
 }
-
-@media(min-width: 768px){
-    .aboutUs{
-        .underline{
-            width: 15%;
-        }
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-

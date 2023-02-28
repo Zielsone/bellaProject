@@ -50,7 +50,7 @@
 }
 
 body {
-  font-family: "Lobster Two", cursive;
+  font-family: "Lobster", cursive;
   position: relative;
   transition: opacity 0.5s;
 }
@@ -172,8 +172,8 @@ a.navbar-brand {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
 }
-.aboutUs .underline {
-  width: 15%;
+.aboutUs .catTxt .underline {
+  width: 12%;
 }
 .aboutUs .aboutUs-card:hover {
   color: #85714e;
@@ -225,7 +225,7 @@ a.navbar-brand {
 
 .prices {
   position: relative;
-  background-image: url("../pic/AllWorkers.jpg");
+  background-image: url("../pic/AllWorkers640.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -259,14 +259,14 @@ a.navbar-brand {
 }
 
 .team {
-  background-image: url("../pic/v748-toon-111.jpg");
+  background-image: url("../pic/teamBg640.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .team .catTxt .underline {
-  width: 15%;
+  width: 12%;
 }
 .team .card {
   width: 300px;
@@ -289,7 +289,7 @@ a.navbar-brand {
 }
 
 .achievements .underline {
-  width: 15%;
+  width: 20%;
 }
 .achievements .ach {
   margin-bottom: 20px;
@@ -313,11 +313,10 @@ a.navbar-brand {
 
 .contact {
   position: relative;
-  background-image: url("../pic/contact1920.jpg");
+  background-image: url("../pic/contact640.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 0% 50%;
+  background-position: center;
 }
 .contact .shadow-bg {
   position: absolute;
@@ -325,14 +324,13 @@ a.navbar-brand {
   height: 100%;
   top: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  z-index: 0;
 }
 .contact .contact-item {
   color: #85714e;
   z-index: 99;
 }
 .contact .underline {
-  width: 15%;
+  width: 17%;
 }
 .contact .catTxt {
   color: #fff;
@@ -358,16 +356,36 @@ a.navbar-brand {
   font-size: 35px;
 }
 
+.footer p a {
+  color: #85714e;
+  text-decoration: none;
+}
+
 @media (max-width: 992px) {
   .navbar a.navbar-brand {
     background-position: -50px 83%;
     width: 200px;
   }
-  .aboutUs .underline {
-    width: 35%;
+  .aboutUs .catTxt .underline {
+    width: 30%;
   }
   .aboutUs-hero .catTxt .underline {
-    width: 98%;
+    width: 80%;
+  }
+  .portfolio .underline {
+    width: 40%;
+  }
+  .prices .underline {
+    width: 25%;
+  }
+  .team .catTxt .underline {
+    width: 30%;
+  }
+  .achievements .underline {
+    width: 45%;
+  }
+  .contact .underline {
+    width: 40%;
   }
 }
 @media (min-width: 992px) {
@@ -380,17 +398,16 @@ a.navbar-brand {
   .aboutUs .underline {
     width: 35%;
   }
-}
-@media (max-width: 768px) {
-  a.navbar-brand {
-    margin-left: 15px;
+  .prices {
+    background-image: url("../pic/AllWorkers.jpg");
   }
-  .aboutUs-hero .catTxt .underline {
-    width: 45%;
+  .contact {
+    background-image: url("../pic/contact1920.jpg");
   }
-}
-@media (min-width: 768px) {
-  .aboutUs .underline {
-    width: 15%;
+  .team {
+    background-image: url("../pic/teamBg1920.jpg");
+  }
+  .team .card .card-body {
+    height: 420px;
   }
 }/*# sourceMappingURL=main.css.map */
