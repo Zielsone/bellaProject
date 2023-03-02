@@ -132,10 +132,13 @@ a.navbar-brand{ //logo in menu
 }
 
 .aboutUs{
+    padding-bottom: 0!important;
     .aboutUs-card{
         text-align: center;
         font-size: 25px;
         margin-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
        // transition: color .6s;
       p:first-child{
         font-size: 40px;
@@ -204,9 +207,11 @@ a.navbar-brand{ //logo in menu
     }
     .carousel-item{
         img{
-            height: 550px;
+            margin-top: 10px;
+            height: 600px;
             width: auto;
-            object-fit: cover;
+            object-fit:fill;
+            
         }
     }
 
@@ -246,7 +251,7 @@ a.navbar-brand{ //logo in menu
         -webkit-box-shadow: -4px -1px 67px -11px rgba(255,255,255,1);
         -moz-box-shadow: -4px -1px 67px -11px rgba(255,255,255,1);
         box-shadow: -4px -1px 67px -11px rgba(255,255,255,1);
-        margin-right: 20px;
+        margin-right: 50px;
     }
     img:hover{
         transform: scale(1.2);

@@ -157,10 +157,15 @@ a.navbar-brand {
   bottom: 20px;
 }
 
+.aboutUs {
+  padding-bottom: 0 !important;
+}
 .aboutUs .aboutUs-card {
   text-align: center;
   font-size: 25px;
   margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 .aboutUs .aboutUs-card p:first-child {
   font-size: 40px;
@@ -213,10 +218,11 @@ a.navbar-brand {
   width: 15%;
 }
 .portfolio .carousel-item img {
-  height: 550px;
+  margin-top: 10px;
+  height: 600px;
   width: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 .portfolio .card {
   border: none;
@@ -251,7 +257,7 @@ a.navbar-brand {
   height: 600px;
   z-index: 100;
   box-shadow: -4px -1px 67px -11px rgb(255, 255, 255);
-  margin-right: 20px;
+  margin-right: 50px;
 }
 .prices img:hover {
   transform: scale(1.2);
