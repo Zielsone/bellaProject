@@ -252,16 +252,14 @@ a.navbar-brand {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: -10;
 }
-.prices img {
-  transition: scale 0.2s;
-  height: 600px;
-  z-index: 100;
-  box-shadow: -4px -1px 67px -11px rgb(255, 255, 255);
-  margin-right: 50px;
+.prices .carousel .carousel-item {
+  padding-bottom: 3em;
 }
-.prices img:hover {
-  transform: scale(1.2);
-  z-index: 100;
+.prices .carousel .carousel-item img {
+  width: 35%;
+  height: 35%;
+  margin: auto;
+  box-shadow: -4px 0px 15px -6px rgb(255, 255, 255);
 }
 
 .team {
@@ -415,5 +413,50 @@ a.navbar-brand {
   }
   .team .card .card-body {
     height: 420px;
+  }
+}
+@media (min-width: 320px) {
+  .prices .carousel .carousel-item {
+    padding-bottom: 1em;
+  }
+  .prices .carousel .carousel-item img {
+    height: 90%;
+    width: 75%;
+  }
+}
+@media (min-width: 768px) {
+  .prices .carousel .carousel-item {
+    padding-bottom: 2em;
+  }
+  .prices .carousel .carousel-item img {
+    height: 80%;
+    width: 65%;
+  }
+}
+@media (min-width: 1024px) {
+  .prices .carousel .carousel-item {
+    padding-bottom: 2em;
+  }
+  .prices .carousel .carousel-item img {
+    height: 50%;
+    width: 50%;
+  }
+}
+@media (min-width: 1220px) {
+  .prices .carousel .carousel-item {
+    padding-bottom: 2em;
+  }
+  .prices .carousel .carousel-item img {
+    height: 35%;
+    width: 35%;
+  }
+}
+@media (min-width: 1550px) {
+  .prices .carousel .carousel-item {
+    padding-bottom: 2em;
+  }
+  .prices .carousel .carousel-item img {
+    height: 30%;
+    width: 30%;
   }
 }/*# sourceMappingURL=main.css.map */

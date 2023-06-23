@@ -244,19 +244,21 @@ a.navbar-brand{ //logo in menu
         background-color: rgba(0,0,0, .8);
         z-index: -10;
     }
-    img{
-        transition: scale 0.2s;
-        height: 600px;
-        z-index: 100;
-        -webkit-box-shadow: -4px -1px 67px -11px rgba(255,255,255,1);
-        -moz-box-shadow: -4px -1px 67px -11px rgba(255,255,255,1);
-        box-shadow: -4px -1px 67px -11px rgba(255,255,255,1);
-        margin-right: 50px;
+
+    .carousel{
+        .carousel-item{
+            padding-bottom: 3em;
+            img{
+                width: 35%;
+                height: 35%;
+                margin: auto;
+                -webkit-box-shadow: -4px 0px 15px -6px rgba(255,255,255,1);
+        -moz-box-shadow: -4px 0px 15px -6px rgba(255,255,255,1);
+        box-shadow: -4px 0px 15px -6px rgba(255,255,255,1);
+            }
+        }
     }
-    img:hover{
-        transform: scale(1.2);
-        z-index: 100;
-    }
+    
 }
 
 .team{
@@ -481,3 +483,86 @@ a.navbar-brand{ //logo in menu
     }
 }
 }
+
+@media(min-width: 320px){
+    .prices{
+        .carousel{
+            .carousel-item{
+                padding-bottom: 1em;
+            }
+            .carousel-item{
+                img{
+                    height: 90%;
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 768px){
+    .prices{
+        .carousel{
+            .carousel-item{
+                padding-bottom: 2em;
+            }
+            .carousel-item{
+                img{
+                    height: 80%;
+                    width: 65%;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1024px){
+    .prices{
+        .carousel{
+            .carousel-item{
+                padding-bottom: 2em;
+            }
+            .carousel-item{
+                img{
+                    height: 50%;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1220px){
+    .prices{
+        .carousel{
+            .carousel-item{
+                padding-bottom: 2em;
+            }
+            .carousel-item{
+                img{
+                    height: 35%;
+                    width: 35%;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1550px){
+    .prices{
+        .carousel{
+            .carousel-item{
+                padding-bottom: 2em;
+            }
+            .carousel-item{
+                img{
+                    height: 30%;
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+
+
+
