@@ -1,9 +1,9 @@
 # Studio urody Bella
 ## My first commercial project. 
 
-This website is classic onepage. It presents the commercial offer of a beauty studio cooperating with me.
-I look after this project and continue to develop it.
+My first commercial project. The website is a classic onpage. It presents the offer of the beauty salon that I work with.
+The project is still being developed and I am constantly managing it. 
 
-Enjoy it :) 
+Enjoy :)
 
 [Bella](https://zielsone.github.io/bellaProject/)
